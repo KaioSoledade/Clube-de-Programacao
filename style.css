@@ -111,7 +111,7 @@ main .logo{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10% 0 5%;
+    padding: 0 10% 0 0;
 
     background-image: url(WhatsApp\ Image\ 2023-06-22\ at\ 4.15.14\ PM\ \(1\).jpeg);
     background-repeat: no-repeat;
@@ -123,14 +123,13 @@ main .logo{
 
 }
 main .club-h{
-    width: 600px;
+    width: 650px;
     height: 100%;
     background-color: white;
 
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    padding-left: 4em;    
 
 }
 main .logo{
@@ -139,7 +138,7 @@ main .logo{
 }
 main .logo p{
     font-size: 70px;
-    width: 100px;
+    width: 250px;
     font-family: 'Bacasime Antique', serif;
     font-family: 'Oswald', sans-serif;
 
