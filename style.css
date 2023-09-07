@@ -175,15 +175,42 @@ main .carrosel{
 
     display: flex;
 }
+main input{
+    display: none;
+}
 main .bloco0 .carrosel-img{
-
     width: 400%;
     height: 500px;
 }
-main .bloco0 input{
+
+main .bloco0 .manual-nav{
     display: flex;
     position: absolute;
-    
+    width: 800px;
+    margin-top: 470px;
+    justify-content: center;
+}
+main .bloco0 .manual-btn{
+    border-radius: 10px;
+    padding: 5px;
+    border: 2px solid white;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 1s;
+}
+main .bloco0 .manual-btn:hover{
+    transition: 1s;
+    background-color: white;
+}
+#press1:checked ~ .first{
+    margin-left: 0;
+}#press2:checked ~ .first{
+    margin-left: -25%;
+}#press3:checked ~ .first{
+    margin-left: -50%;
+}#press4:checked ~ .first{
+    margin-left: -75%;
 }
 main .bloco1{
     width: 100%;
