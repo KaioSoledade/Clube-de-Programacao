@@ -1,21 +1,23 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
     box-sizing: border-box;
 }
+
 /*
 font-family: 'Bacasime Antique', serif;
 font-family: 'Oswald', sans-serif;
 */
-body{
+body {
     width: 100%;
     height: 200vh;
 
     background-color: rgb(255, 255, 255);
 
 }
-header{
+
+header {
     width: 100%;
     height: 250px;
     padding: 0 5% 0 0;
@@ -25,7 +27,7 @@ header{
     justify-content: space-between;
 
     background-color: rgb(255, 255, 255);
-        
+
     background-image: url(Apresentação\ Clube\ de\ Programação.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -33,11 +35,12 @@ header{
 
 }
 
-main{
+main {
     width: 100%;
     height: 300vh;
 }
-footer{
+
+footer {
     width: 100%;
     height: 400px;
     background-color: rgb(165, 165, 165);
@@ -46,7 +49,7 @@ footer{
 
 
 
-header .navegacao{
+header .navegacao {
     font-size: 20px;
     text-transform: uppercase;
 
@@ -56,10 +59,11 @@ header .navegacao{
     display: flex;
     align-items: center;
     justify-content: space-around;
-        color: white;
+    color: white;
 
 }
-header .navegacao p a{
+
+header .navegacao p a {
     font-size: 25px;
     cursor: pointer;
     transition: 0.5s;
@@ -67,13 +71,15 @@ header .navegacao p a{
 
 
 }
-header .navegacao p :hover{
+
+header .navegacao p :hover {
     transition: 0.5s;
     color: coral;
     text-transform: uppercase;
     cursor: pointer;
 }
-header .style{
+
+header .style {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,7 +87,8 @@ header .style{
     width: 53%;
     height: 250px;
 }
-header .pesquisa{
+
+header .pesquisa {
     width: 400px;
     height: 40px;
     border-radius: 50px;
@@ -95,22 +102,25 @@ header .pesquisa{
 
     background-color: rgb(255, 255, 255);
 }
-header .pesquisa img{
+
+header .pesquisa img {
     width: 30px;
     height: 30px;
     opacity: 0.5;
 }
-header .pesquisa p{
-    margin-left:10px ;
+
+header .pesquisa p {
+    margin-left: 10px;
     opacity: 0.5;
 }
-header p a{
+
+header p a {
     text-decoration: none;
     color: black;
 }
 
 
-main .logo{
+main .logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,12 +129,13 @@ main .logo{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    
+
     width: 100%;
-    height: 700px;
+    height: 800px;
 
 }
-main .club-h{
+
+main .club-h {
     width: 750px;
     height: 100%;
 
@@ -134,7 +145,8 @@ main .club-h{
     align-items: center;
     padding: 0 0 100px;
 }
-main .club-h p{
+
+main .club-h p {
     font-size: 50px;
     display: flex;
     justify-content: center;
@@ -145,76 +157,37 @@ main .club-h p{
     font-family: 'Oswald', sans-serif;
 }
 
-main .logo img{
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
 
-    background-color: white;
-
-}
-
-main .bloco0 img{
+main .bloco0 img {
     width: 800px;
     height: 500px;
 }
-main .bloco0{
-    box-shadow: 0 -80px 80px rgba(255, 255, 255, 0.5); 
+
+main .bloco0 {
+    box-shadow: 0 -80px 80px rgba(255, 255, 255, 0.5);
 
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
     width: 100%;
-    height: 700px;
+    height: 900px;
 }
-main .carrosel{
+
+main .carrosel {
     width: 800px;
     height: 500px;
     overflow: hidden;
 
     display: flex;
-}
-main input{
-    display: none;
-}
-main .bloco0 .carrosel-img{
-    width: 400%;
-    height: 500px;
+    margin-bottom: 30px;
 }
 
-main .bloco0 .manual-nav{
-    display: flex;
-    position: absolute;
-    width: 800px;
-    margin-top: 470px;
-    justify-content: center;
-}
-main .bloco0 .manual-btn{
-    border-radius: 10px;
-    padding: 5px;
-    border: 2px solid white;
-    cursor: pointer;
-    margin-left: 10px;
-    margin-right: 10px;
-    transition: 1s;
-}
-main .bloco0 .manual-btn:hover{
-    transition: 1s;
-    background-color: white;
-}
-#press1:checked ~ .first{
-    margin-left: 0;
-}#press2:checked ~ .first{
-    margin-left: -25%;
-}#press3:checked ~ .first{
-    margin-left: -50%;
-}#press4:checked ~ .first{
-    margin-left: -75%;
-}
-main .bloco1{
+
+main .bloco1 {
     width: 100%;
-    height: 500px;
+    height: 700px;
 
 
     display: flex;
@@ -224,18 +197,20 @@ main .bloco1{
     margin-top: 4em;
 
 }
-main .bloco1 .img img{
-    width: 600px;
-    height: 600px ;
-    box-shadow: 20px 40px 40px rgba(0, 0, 0, 0.5); 
-    border-radius: 50%;
+
+main .bloco1 .img img {
+    width: 800px;
+    height: auto;
+    box-shadow: 20px 40px 40px rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
 }
-main .bloco1 .texto1{
+
+main .bloco1 .texto1 {
     width: 1000px;
     height: 650px;
 }
 
-main .bloco1 .texto1 h1{
+main .bloco1 .texto1 h1 {
     display: flex;
     justify-content: center;
     font-size: 50px;
@@ -244,7 +219,8 @@ main .bloco1 .texto1 h1{
     margin: 0.5em 0 0.5em 0;
     font-family: 'Raleway', sans-serif;
 }
-main .bloco1 .texto1 p{
+
+main .bloco1 .texto1 p {
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
     padding: 1em 0 0 1em;
@@ -254,37 +230,43 @@ main .bloco1 .texto1 p{
     height: 250px;
 
 }
-main .bloco1 .texto1 .cont1{
+
+main .bloco1 .texto1 .cont1 {
     border-right: 2px solid black;
-    
+
 
 }
-main .bloco1 .texto1 .cont2{
+
+main .bloco1 .texto1 .cont2 {
     border-top: 2px solid black;
 
 
 }
-main .bloco1 .texto1 .cont3{
+
+main .bloco1 .texto1 .cont3 {
     border-bottom: 2px solid black;
 
 }
-main .bloco1 .texto1 .cont4{
+
+main .bloco1 .texto1 .cont4 {
     border-left: 2px solid black;
 
 
 }
-main .bloco1 .texto1 img{
+
+main .bloco1 .texto1 img {
     width: 50px;
     height: 50px;
     display: inline-block;
-    display: flex;    
+    display: flex;
 }
-main .bloco1 .texto1 .colunas1234{
+
+main .bloco1 .texto1 .colunas1234 {
     display: flex;
     justify-content: space-around;
 }
 
-main .bloco2{
+main .bloco2 {
     width: 100%;
     height: 700px;
     background-color: rgb(255, 115, 0);
@@ -292,24 +274,27 @@ main .bloco2{
     align-items: center;
     justify-content: space-around;
     margin-top: 150px;
-    box-shadow: 20px 40px 40px rgba(0, 0, 0, 0.5); 
+    box-shadow: 20px 40px 40px rgba(0, 0, 0, 0.5);
 
 
 }
-main .bloco2 img{
+
+main .bloco2 img {
     width: auto;
     content: "";
     height: 100%;
-    background: linear-gradient(to right, transparent, white); /* Gradiente que cria o efeito de desvanecimento */
+    background: linear-gradient(to right, transparent, white);
+    /* Gradiente que cria o efeito de desvanecimento */
     pointer-events: none;
 }
-main .bloco2 .texto2{
+
+main .bloco2 .texto2 {
     padding: 0 1em 0 5em;
     width: 700px;
     height: 600px;
 }
 
-main .bloco2 .texto2 h1{
+main .bloco2 .texto2 h1 {
     display: flex;
     justify-content: center;
     font-size: 50px;
@@ -319,40 +304,102 @@ main .bloco2 .texto2 h1{
     font-family: 'Raleway', sans-serif;
 
 }
-main .bloco2 .texto2 p{
+
+main .bloco2 .texto2 p {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
-    margin-bottom: 1em ;
+    margin-bottom: 1em;
 }
-main .bloco2 .texto2 img{
+
+main .bloco2 .texto2 img {
     width: 10px;
     height: 10px;
     border-radius: 50%;
     display: inline-block;
-    margin: 0 1em;    
-    
+    margin: 0 1em;
+
 }
 
 
-.conteudo a{
+.conteudo a {
     text-decoration: none;
     position: relative;
     display: inline-block;
 
-    color: black; 
+    color: black;
 }
-.conteudo a::after{
-    content: ''; 
-    position: absolute;  
+
+.conteudo a::after {
+    content: '';
+    position: absolute;
     left: 0;
-    bottom: -2px; 
-    width: 100%; 
+    bottom: -2px;
+    width: 100%;
     height: 2px;
-    background-color: rgb(255, 153, 0); 
-    transition: transform 1s ease; 
-    transform: scaleX(0); 
+    background-color: rgb(255, 153, 0);
+    transition: transform 1s ease;
+    transform: scaleX(0);
     transform-origin: left;
 }
-.conteudo a:hover::after{
+
+.conteudo a:hover::after {
     transform: scaleX(1);
+}
+
+.manual-nav{
+    width: 100%;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+
+}
+#VoltSlide {
+    color: black;
+    padding: 10px 20px;
+    border: none;
+}
+
+#ProxSlide {
+    color: black;
+    padding: 10px 20px;
+    border: none;
+}
+
+main .imagem1{
+    width: 800px;
+    height: 500px;
+}
+main .imagem1-off{
+display: none;
+}
+
+main .imagem2{
+    width: 800px;
+    height: 500px;
+}
+main .imagem2-off{
+display: none;
+}
+
+main .imagem3{
+    width: 800px;
+    height: 500px;
+}
+main .imagem3-off{
+display: none;  
+}
+
+main .imagem4{
+    width: 800px;
+    height: 500px;
+}
+main .imagem4-off{
+display: none;
 }
