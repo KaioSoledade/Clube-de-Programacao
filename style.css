@@ -28,7 +28,7 @@ header {
 
     background-color: rgb(255, 255, 255);
 
-    background-image: url(Apresentação\ Clube\ de\ Programação.png);
+    background-image: url(clube-banner.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -43,7 +43,7 @@ main {
 footer {
     width: 100%;
     height: 400px;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(48, 48, 48);
 }
 
 
@@ -125,7 +125,7 @@ main .logo {
     justify-content: center;
     align-items: center;
 
-    background-image: url(Apresentação\ Clube\ de\ Programação.png);
+    background-image: url(clube-banner.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -274,8 +274,7 @@ main .bloco2 {
     align-items: center;
     justify-content: space-around;
     margin-top: 150px;
-    box-shadow: 20px 40px 40px rgba(0, 0, 0, 0.5);
-
+    box-shadow: 20px -40px 100px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -283,8 +282,6 @@ main .bloco2 img {
     width: auto;
     content: "";
     height: 100%;
-    background: linear-gradient(to right, transparent, white);
-    /* Gradiente que cria o efeito de desvanecimento */
     pointer-events: none;
 }
 
@@ -320,16 +317,24 @@ main .bloco2 .texto2 img {
 }
 main .bloco3{
     width: 100%;
-    height: 800px;
+    height: 1000px;
     background-color: azure;
+
+    background-image: url(IMG_0657-recorte.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 
 }
 
 footer .patrocinio{
     width: 100%;
-    height: 150px;
+    height: 200px;
     display: flex;
+    align-items: center;
     justify-content: space-around;
+    background-color: rgb(240, 240, 240);
+
 }
 
 footer .patrocinio img{
@@ -339,6 +344,8 @@ footer .patrocinio img{
 
 }
 footer .patrocinio a{
+    width: 160px;
+    height: 180px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -431,3 +438,6 @@ main .imagem4{
 main .imagem4-off{
 display: none;
 }
+
+/*    box-shadow: inset 0px 0px 100px rgba(0, 0, 0, 0.5);
+*/
