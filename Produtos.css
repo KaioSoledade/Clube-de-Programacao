@@ -370,6 +370,30 @@ footer .h6{
 .conteudo a:hover::after {
     transform: scaleX(1);
 }
+.conteudo1 a {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+
+    color: black;
+}
+
+.conteudo1 a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(255, 153, 0);
+    transition: transform 1s ease;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.conteudo1 a:hover::after {
+    transform: scaleX(1);
+}
 
 
 
