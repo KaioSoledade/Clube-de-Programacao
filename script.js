@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
       selecaoimagembutao(nextImageURL);
     }
   
-    selecaoimagembutao("clube-banner.png");
+    selecaoimagembutao("CSS/Imagens/clube-banner.png");
   
     setInterval(autoChangeImage, 5000);
   });
@@ -71,12 +71,11 @@ document.addEventListener("DOMContentLoaded", function () {
       {rotate: {x: 100, y: 0, z: 0},
       durantion: 2000});
   
-      // Inicialize o ScrollReveal
   sr.reveal('.revell4', {
-      origin: 'left', // Define a direção da origem da animação
-      distance: '100px', // Define a distância percorrida pela animação
-      duration: 1000, // Define a duração da animação em milissegundos
-      easing: 'ease-in-out', // Define a função de easing (aceleração/desaceleração) da animação
+      origin: 'left',
+      distance: '100px', 
+      duration: 1000, 
+      easing: 'ease-in-out', 
     });
     
 

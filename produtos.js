@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
       selecaoimagembutao(nextImageURL);
     }
   
-    selecaoimagembutao("garrafaclube.png");
+    selecaoimagembutao("CSS/Imagens/1.png");
   
     setInterval(autoChangeImage, 5000);
   });

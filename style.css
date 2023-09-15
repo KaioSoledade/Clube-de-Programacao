@@ -133,23 +133,23 @@ main .logo {
 }
 
 .logo-1 {
-    background-image: url(clube-banner.png);
+    background-image: url(CSS/Imagens/clube-banner.png);
 }
 
 .logo-2 {
-    background-image: url(IMG_0654.png);
+    background-image: url(CSS/Imagens/IMG_0654.png);
 }
 
 .logo-3 {
-    background-image: url(IMG_0657-recorte.png);
+    background-image: url(CSS/Imagens/IMG_0657-recorte.png);
 }
 
 .logo-4 {
-    background-image: url(IMG_3623.png);
+    background-image: url(CSS/Imagens/IMG_3623.png);
 }
 
 .logo-5 {
-    background-image: url(IMG_3637.jpg);
+    background-image: url(CSS/Imagens/IMG_3637.jpg);
 }
 
 
@@ -328,7 +328,7 @@ main .bloco3 {
     height: 1000px;
     background-color: azure;
 
-    background-image: url(IMG_0657-recorte.png);
+    background-image: url(CSS/Imagens/IMG_0657-recorte.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -337,6 +337,7 @@ main .bloco3 {
 
 
 /*---------------------------------------------------------------------------------------------------*/
+
 footer .patrocinio {
     width: 100%;
     height: 300px;
@@ -357,8 +358,8 @@ footer .final {
 
 footer .final .logo-final {
     background-color: black;
-    width: 400px;
-    height: 400px;
+    width: 80%;
+    height: auto;
     border-radius: 50%;
 }
 
@@ -384,7 +385,7 @@ footer .patrocinio a {
 }
 
 footer .icons {
-    width: 1050px;
+    width: 90%;
     height: 70px;
     display: flex;
     justify-content: space-between;
@@ -399,21 +400,22 @@ footer .icons img {
 }
 
 footer .lado {
-    width: 1200px;
+    width: 70%;
     height: 500px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
 }
-footer .linha{
+
+footer .linha {
     width: 400px;
     height: 5px;
     border-radius: 2px;
     background-color: #ff7b00;
 }
 
-footer .lado p{
+footer .lado p {
     font-size: 20px;
     padding-left: 20px;
     margin-top: 1em;
@@ -421,7 +423,8 @@ footer .lado p{
     color: black;
 
 }
-footer .lado p a{
+
+footer .lado p a {
     font-size: 20px;
     margin-top: 1em;
     font-family: 'Raleway', sans-serif;
@@ -429,7 +432,7 @@ footer .lado p a{
 
 }
 
-footer .lado h6{
+footer .lado h6 {
     font-size: 30px;
     padding-left: 20px;
     font-family: 'Raleway', sans-serif;
@@ -437,13 +440,14 @@ footer .lado h6{
 }
 
 footer .contato {
-    width: 1100px;
+    width: 70%;
     height: 250px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-footer .h6{
+
+footer .h6 {
     font-size: 30px;
     width: 100%;
     height: 100px;
@@ -456,6 +460,7 @@ footer .h6{
     padding: 20px 0;
 
 }
+
 .conteudo a {
     text-decoration: none;
     position: relative;
@@ -480,6 +485,7 @@ footer .h6{
 .conteudo a:hover::after {
     transform: scaleX(1);
 }
+
 .conteudo1 a {
     text-decoration: none;
     position: relative;
@@ -504,7 +510,6 @@ footer .h6{
 .conteudo1 a:hover::after {
     transform: scaleX(1);
 }
-
 
 
 
