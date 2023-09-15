@@ -34,7 +34,7 @@ header {
 
 main {
     width: 100%;
-    height: 200vh;
+    height: 400vh;
 }
 
 footer {
@@ -102,8 +102,20 @@ header .pesquisa {
     background-color: rgb(255, 255, 255);
 }
 
-header .activenav a {
-    color: #ff7b00;
+header .pesquisa img {
+    width: 30px;
+    height: 30px;
+    opacity: 0.5;
+}
+
+header .pesquisa p {
+    margin-left: 10px;
+    opacity: 0.5;
+}
+
+header p a {
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -119,187 +131,35 @@ main .logo {
     transition: background-image 1s ease-in-out;
     background-color: #ff7b00;
 }
-
-.logo-1 {
-    background-image: url(CSS/Imagens/2.png);
-}
-
-.logo-2 {
-    background-image: url(CSS/Imagens/Quemsomos1.png);
-}
-
-.logo-3 {
-    background-image: url(CSS/Imagens/Quemsomos2.png);
-}
-
-.logo-4 {
-    background-image: url(CSS/Imagens/1.png);
-
-}
-
-.logo-5 {
-    background-image: url(CSS/Imagens/Quemsomos.png);
-}
-
-main .bloco0 {
-    box-shadow: 0 -80px 80px rgba(255, 255, 255, 0.5);
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 35px;
-
-    width: 100%;
-    height: 1200px;
-
-}
+/*---------------------------------------------------------------------------------------------------*/
 
 
 
-main .produtos-venda .secao1,
-.secao2 {
-    width: 100%;
-    height: 450px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-main .secao1 h1 {
-    font-size: 20px;
-    padding: 0 1em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-main .secao2 h1 {
-    font-size: 20px;
-    padding: 0 1em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-main .bloco0 .texto-produt{
-    width: 100%;
-    height: 60px;
-    font-size: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 50px;
-    text-transform: uppercase;
-}
-
-main .bloco0 .secao1 .comprar {
-    width: 450px;
-    height: 30px;
-    background-color: #ff6600;
-    color: white;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    cursor: pointer;
-}
-main .bloco0 .secao2 .comprar {
-    width: 450px;
-    height: 30px;
-    background-color: #ff6600;
-    color: white;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    cursor: pointer;
-
-
-}
-main .bloco0 .bloquinho{
-    width: 300px;
-    height: 300px;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-}
-main .bloco0 .bloquinho p{
-    font-size: 50px;
-    text-transform: uppercase;
-    
-}
-
-main .bloco0 .bloquinho h1{
-    font-size: 20px;
-    text-transform: uppercase;
-    
-}
-
-main .produtos-venda {
-    width: 100%;
-    height: 1200px;
-    padding: 50px 0;
-
-
-    flex-direction: column;
-    display: flex;
-    justify-content: space-around;
-
-}
-main .container-prod .prond-flex-lat{
-    width: 600px;
-    height: 300px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-main .produtos-venda .container-prod {
-    width: 700px;
-    height: 400px;
-    border-radius: 20px;
-    margin: 1em;
-    background-color: rgb(255, 255, 255);
-
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-
-    box-shadow: 0 80px 80px rgba(0, 0, 0, 0.5);
-
-}
-
-main .produtos-venda img {
-    width: 300px;
-    height: 300px;
-    overflow: hidden;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-main .produtos-venda p {
-    width: 190px;
-}
 
 
 
-footer {
-    box-shadow: 0 -80px 80px rgba(213, 213, 213, 0.5);
 
-    width: 100%;
-    height: 700px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    padding-bottom: 5em;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------------*/
 
 footer .patrocinio {
     width: 100%;
