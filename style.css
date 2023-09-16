@@ -22,7 +22,7 @@ body {
 header {
     width: 100%;
     height: 150px;
-    padding: 0 5% 0 0;
+    padding: 0 5%;
 
     display: flex;
     align-items: center;
@@ -34,7 +34,7 @@ header {
 
 main {
     width: 100%;
-    height: 400vh;
+    height: 420vh;
 }
 
 footer {
@@ -45,6 +45,7 @@ footer {
     justify-content: space-between;
     flex-direction: column;
     padding-bottom: 5em;
+    background-color: white;
 }
 
 
@@ -127,7 +128,7 @@ main .logo {
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
-    height: 900px;
+    height: 700px;
     transition: background-image 1s ease-in-out;
     background-color: #ff7b00;
 }
@@ -228,7 +229,7 @@ main .bloco1 {
 }
 
 main .bloco1 .img img {
-    width: 800px;
+    width: 75%;
     height: auto;
     box-shadow: 20px 40px 40px rgba(0, 0, 0, 0.5);
     border-radius: 50px;
@@ -371,7 +372,7 @@ footer .patrocinio {
 
 footer .final {
     width: 80%;
-    height: 500px;
+    height: 700px;
     display: flex;
     justify-content: space-between;
     align-items: center;

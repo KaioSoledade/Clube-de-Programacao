@@ -22,7 +22,7 @@ body {
 header {
     width: 100%;
     height: 150px;
-    padding: 0 5% 0 0;
+    padding: 0 5%;
 
     display: flex;
     align-items: center;
@@ -30,11 +30,15 @@ header {
 
     background-color: rgb(255, 255, 255);
     color: black;
+    box-shadow: 0 10px 80px rgba(0, 0, 0, 0.5);
+
 }
 
 main {
     width: 100%;
-    height: 400vh;
+    height: 125vh;
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
@@ -118,22 +122,94 @@ header p a {
     color: black;
 }
 
+/*---------------------------------------------------------------------------------------------------*/
 
-main .logo {
+main{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+main .prod{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+main .img-prod{
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 10px;
+}
+main .descricao{
+    width: 40%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+main .descricao h1{
+    font-size: 80px;
+}
+main .descricao button{
+    width: 100%;
+    height: 30px;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    width: 100%;
-    height: 900px;
-    transition: background-image 1s ease-in-out;
+
+    border: 0px;
+    cursor: pointer;
+
+    color: white;
     background-color: #ff7b00;
+    border-radius: 10px;
+    font-size: 25px;
+    transition: 0.5s ease-in-out;
 }
-/*---------------------------------------------------------------------------------------------------*/
+main .descricao button:hover{
+scale: 1.05;
+}
+main .preco{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    height: 100px;
+    align-items: end;
 
+}
+main .preco h3{
+    margin-left: 10px;
+    font-size: 50px;
+}
+main .nav-outros{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to right, #ff7b00 50%, black 50%);
 
+}
+main .nav-outros img{
+
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+main .nav-outros img:hover{
+    scale: 1.2;
+}
 
 
 
