@@ -134,23 +134,23 @@ main .logo {
 }
 
 .logo-1 {
-    background-image: url(CSS/Imagens/clube-banner.png);
+    background-image: url(Imagens/clube-banner.png);
 }
 
 .logo-2 {
-    background-image: url(CSS/Imagens/IMG_0654.png);
+    background-image: url(Imagens/IMG_0654.png);
 }
 
 .logo-3 {
-    background-image: url(CSS/Imagens/IMG_0657-recorte.png);
+    background-image: url(Imagens/IMG_0657-recorte.png);
 }
 
 .logo-4 {
-    background-image: url(CSS/Imagens/IMG_3623.png);
+    background-image: url(Imagens/IMG_3623.png);
 }
 
 .logo-5 {
-    background-image: url(CSS/Imagens/IMG_3637.jpg);
+    background-image: url(Imagens/IMG_3637.jpg);
 }
 
 main .texto0{
@@ -350,7 +350,7 @@ main .bloco3 {
     height: 1000px;
     background-color: azure;
 
-    background-image: url(CSS/Imagens/IMG_0657-recorte.png);
+    background-image: url(Imagens/IMG_0657-recorte.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
