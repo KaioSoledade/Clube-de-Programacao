@@ -230,6 +230,47 @@ main .bloco0 .secao2 .comprar {
 
 
 }
+main button{
+    background-color: white;
+    cursor: pointer;
+    border: 0;
+    font-size: 15px;
+    display: flex;
+    width: 180px;
+    justify-content: start;
+    text-decoration: underline 1px solid black; 
+}
+
+ .dialog. p{
+    font-size: 10px;
+
+}
+.show{
+    width: 500px;
+    height: 250px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: none;
+    border-radius: 30px;
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    transition: 0.5s;
+}
+
+.none{
+    display: none;
+}
+
+div .show button{
+    font-size: 15px;
+    background-color: #ccc;
+    text-decoration: none;
+    margin-left: 1em;
+    margin-top: 0.5em;
+}
 main .bloco0 .bloquinho{
     width: 300px;
     height: 300px;
