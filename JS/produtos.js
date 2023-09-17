@@ -60,8 +60,6 @@ sr.reveal('.revell0',
   });
 
 
-
-
 sr.reveal('.revell1', { durantion: 200000 });
 
 

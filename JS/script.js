@@ -77,4 +77,6 @@ document.addEventListener("DOMContentLoaded", function () {
       duration: 1000, 
       easing: 'ease-in-out', 
     });
+
+
     

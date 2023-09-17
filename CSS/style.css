@@ -555,9 +555,7 @@ footer .h6 {
 
 .image-button.active {
     background-color: #ff7b00;
-    /* Cor de fundo quando selecionado */
     color: white;
-    /* Cor do texto quando selecionado */
 }
 
 
